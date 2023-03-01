@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top:10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: rgb(8, 163, 224);
+}
+
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+#title{
+    font-family: 'Anton', sans-serif;
+    color: rgb(105, 202, 9);
+    font-size: 40px;
+}
+#home{
+    background: linear-gradient(rgb(135, 166, 248), rgb(158, 203, 255));
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+#sinopse{
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: justify;
+}
+h1{
+    font-family: fantasy;
+    font-size: 35px;
+}
+.pers{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin: 2px;
+}
+    #img1,#img2,#img3, #img4{
+        width: 200px;
+        height: 200px;
+    }
+#sinopse{
+    text-align: center;
+    background-color: rgb(42, 165, 69);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
